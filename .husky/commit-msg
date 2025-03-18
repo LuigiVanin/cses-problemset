@@ -1,23 +1,48 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-# Example script to modify commit messages
 commit_message=$(cat "$1")
 
 case "$commit_message" in
   docs:*)
-    fixed_message="📰${commit_message}"
+    tag="Docs"
+    emoji="📝"
+    message="${commit_message#docs:}"
+    fixed_message="${tag}${emoji}:${message}"
     ;;
   feat:*)
-    fixed_message="⚙️${commit_message}"
+    tag="Feat"
+    emoji="✨"
+    message="${commit_message#feat:}"
+    fixed_message="${tag}${emoji}:${message}"
+    ;;
+  test:*)
+    tag="Test"
+    emoji="🧪"
+    message="${commit_message#test:}"
+    fixed_message="${tag}${emoji}:${message}"
+    ;;
+  refactor:*)
+    tag="Refactor"
+    emoji="♻️"
+    message="${commit_message#refactor:}"
+    fixed_message="${tag}${emoji}:${message}"
     ;;
   fix:*)
-    fixed_message="🐛${commit_message}"
+    tag="Fix"
+    emoji="🐛"
+    message="${commit_message#fix:}"
+    fixed_message="${tag}${emoji}:${message}"
+    ;;
+  hotfix:*)
+    tag="Hotfix"
+    emoji="🔥"
+    message="${commit_message#hotfix:}"
+    fixed_message="${tag}${emoji}:${message}"
     ;;
   *)
     fixed_message="$commit_message"
     ;;
 esac
+
+echo $fixed_message
 
 if [ "$fixed_message" != "$commit_message" ]; then
   echo "$fixed_message" > "$1"
