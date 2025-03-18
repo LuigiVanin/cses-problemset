@@ -1,0 +1,26 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Example script to modify commit messages
+commit_message=$(cat "$1")
+
+case "$commit_message" in
+  docs:*)
+    fixed_message="📰${commit_message}"
+    ;;
+  feat:*)
+    fixed_message="⚙️${commit_message}"
+    ;;
+  fix:*)
+    fixed_message="🐛${commit_message}"
+    ;;
+  *)
+    fixed_message="$commit_message"
+    ;;
+esac
+
+if [ "$fixed_message" != "$commit_message" ]; then
+  echo "$fixed_message" > "$1"
+fi
+
+exit 1
