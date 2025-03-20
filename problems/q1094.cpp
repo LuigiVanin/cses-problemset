@@ -1,26 +1,30 @@
 // Problem "Increasing Array": https://cses.fi/problemset/task/1094
 #include <iostream>
-#include <vector>
+#define ll long long
 
 int main()
 {
-  std::vector<int> array = {};
   int n;
+  ll prev = 0;
+  ll moves = 0;
 
   std::cin >> n;
 
   for (size_t i = 0; i < n; i++)
   {
-    int x;
+    ll x;
     std::cin >> x;
-    array.push_back(x);
+
+    if (prev > x)
+    {
+      moves += prev - x;
+      x = prev;
+    }
+
+    prev = x;
   }
 
-  for (size_t i = 0; i < array.size(); i++)
-  {
-
-    std::cout << array[i] << std::endl;
-  }
+  std::cout << moves << std::endl;
 
   return 0;
 }
