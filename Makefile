@@ -124,41 +124,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named q1094
+# Target rules for targets named q1070
 
 # Build rule for target.
-q1094: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 q1094
-.PHONY : q1094
+q1070: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 q1070
+.PHONY : q1070
 
 # fast build rule for target.
-q1094/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1094.dir/build.make CMakeFiles/q1094.dir/build
-.PHONY : q1094/fast
+q1070/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1070.dir/build.make CMakeFiles/q1070.dir/build
+.PHONY : q1070/fast
 
-problems/q1094.o: problems/q1094.cpp.o
-.PHONY : problems/q1094.o
+problems/q1070.o: problems/q1070.cpp.o
+.PHONY : problems/q1070.o
 
 # target to build an object file
-problems/q1094.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1094.dir/build.make CMakeFiles/q1094.dir/problems/q1094.cpp.o
-.PHONY : problems/q1094.cpp.o
+problems/q1070.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1070.dir/build.make CMakeFiles/q1070.dir/problems/q1070.cpp.o
+.PHONY : problems/q1070.cpp.o
 
-problems/q1094.i: problems/q1094.cpp.i
-.PHONY : problems/q1094.i
+problems/q1070.i: problems/q1070.cpp.i
+.PHONY : problems/q1070.i
 
 # target to preprocess a source file
-problems/q1094.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1094.dir/build.make CMakeFiles/q1094.dir/problems/q1094.cpp.i
-.PHONY : problems/q1094.cpp.i
+problems/q1070.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1070.dir/build.make CMakeFiles/q1070.dir/problems/q1070.cpp.i
+.PHONY : problems/q1070.cpp.i
 
-problems/q1094.s: problems/q1094.cpp.s
-.PHONY : problems/q1094.s
+problems/q1070.s: problems/q1070.cpp.s
+.PHONY : problems/q1070.s
 
 # target to generate assembly for a file
-problems/q1094.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1094.dir/build.make CMakeFiles/q1094.dir/problems/q1094.cpp.s
-.PHONY : problems/q1094.cpp.s
+problems/q1070.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1070.dir/build.make CMakeFiles/q1070.dir/problems/q1070.cpp.s
+.PHONY : problems/q1070.cpp.s
 
 # Help Target
 help:
@@ -169,10 +169,10 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... q1094"
-	@echo "... problems/q1094.o"
-	@echo "... problems/q1094.i"
-	@echo "... problems/q1094.s"
+	@echo "... q1070"
+	@echo "... problems/q1070.o"
+	@echo "... problems/q1070.i"
+	@echo "... problems/q1070.s"
 .PHONY : help
 
 
