@@ -18,17 +18,11 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 - [x] [1070 - Permutations](https://cses.fi/problemset/task/1070) [[SOLUTION](./problems/q1070.cpp)]
 - [x] [1071 - Number Spiral](https://cses.fi/problemset/task/1071) [[SOLUTION](./problems/q1071.cpp)]
 - [x] [1072 - Two Knights](https://cses.fi/problemset/task/1072) [[SOLUTION](./problems/q1072.cpp)]
-- [ ] [1098 - Two Sets](https://cses.fi/problemset/task/1098)
-- [ ] [1099 - Bit Strings](https://cses.fi/problemset/task/1099)
+- [ ] [1617 - Bit Strings](https://cses.fi/problemset/task/1617) [[SOLUTION](./problems/q1617.cpp)]
 - [ ] [1100 - Trailing Zeros](https://cses.fi/problemset/task/1100)
 - [ ] [1101 - Coin Piles](https://cses.fi/problemset/task/1101)
 - [ ] [1102 - Palindrome Reorder](https://cses.fi/problemset/task/1102)
-- [ ] [1103 - Gray Code](https://cses.fi/problemset/task/1103)
 - [ ] [1104 - Tower of Hanoi](https://cses.fi/problemset/task/1104)
-- [ ] [1105 - Creating Strings](https://cses.fi/problemset/task/1105)
-- [ ] [1106 - Apple Division](https://cses.fi/problemset/task/1106)
-- [ ] [1107 - Chessboard and Queens](https://cses.fi/problemset/task/1107)
-- [ ] [1108 - Digit Queries](https://cses.fi/problemset/task/1108)
 
 </details>
 
