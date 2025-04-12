@@ -2,5 +2,15 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "csharp": true,
+    "typescriptreact": true,
+    "cpp": false,
+    "python": true
   }
 }
