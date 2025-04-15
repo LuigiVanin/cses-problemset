@@ -22,13 +22,17 @@ Let's examine some examples:
 
 The pattern continues, but we need to be careful with multiples of higher powers of 5:
 
-- 25! = 1 × ... × 5 × ... × 10 × ... × 15 × ... × 20 × ... × 25 (5 × 5) × ... ➡️ Six trailing zeros. Notice that 25 contributes two factors of 5.
+- 25! = 1 × ... × 5 × ... × (10 = (2 × 5)) × ... × (15 = (3 × 5)) × ... × (20 = (4 × 5)) × ... × 25 (5 × 5)  ➡️ 6 trailing zeros.
+Notice that 25 contributes two factors of 5.
 
 - Similarly, 125 (5 × 5 × 5) would contribute three factors of 5, and so on.
 
-Therefore, to find the number of trailing zeros in n!, we need to count the number of multiples of 5 less than or equal to n, then add the number of multiples of 5^2 (which contribute an additional factor of 5), then add the number of multiples of 5^3, and so on, until the power of 5 exceeds n.
+Therefore, to find the number of trailing zeros in n!, we need to count the number of multiples of 5 less than
+or equal to n, then add the number of multiples of 5^2 (which contribute an additional factor of 5), then add
+the number of multiples of 5^3, and so on, until the power of 5 exceeds n.
 
-In this manner we can determine the number of trailing zeros in n! without explicitly computing the factorial itself.
+In this manner we can determine the number of trailing zeros in n! without explicitly computing the factorial
+itself.
 */
 int main()
 {
