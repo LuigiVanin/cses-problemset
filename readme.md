@@ -4,8 +4,7 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 
 ## Problems
 
-<details>
-<summary><h3> ✅ Check List </h3></summary>
+### ✅ Check List
 
 <details>
 <summary> Introductory Problems </summary>
@@ -19,7 +18,7 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 - [x] [1071 - Number Spiral](https://cses.fi/problemset/task/1071) [[SOLUTION](./problems/q1071.cpp)]
 - [x] [1072 - Two Knights](https://cses.fi/problemset/task/1072) [[SOLUTION](./problems/q1072.cpp)]
 - [x] [1617 - Bit Strings](https://cses.fi/problemset/task/1617) [[SOLUTION](./problems/q1617.cpp)]
-- [ ] [1100 - Trailing Zeros](https://cses.fi/problemset/task/1100)
+- [x] [1100 - Trailing Zeros](https://cses.fi/problemset/task/1618) [[SOLUTION](./problems/q1618.cpp)]
 - [ ] [1101 - Coin Piles](https://cses.fi/problemset/task/1101)
 - [ ] [1102 - Palindrome Reorder](https://cses.fi/problemset/task/1102)
 - [ ] [1104 - Tower of Hanoi](https://cses.fi/problemset/task/1104)
