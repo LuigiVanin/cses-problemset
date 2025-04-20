@@ -19,8 +19,7 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 - [x] [1072 - Two Knights](https://cses.fi/problemset/task/1072) [[SOLUTION](./problems/q1072.cpp)]
 - [x] [1617 - Bit Strings](https://cses.fi/problemset/task/1617) [[SOLUTION](./problems/q1617.cpp)]
 - [x] [1100 - Trailing Zeros](https://cses.fi/problemset/task/1618) [[SOLUTION](./problems/q1618.cpp)]
-- [ ] [1101 - Coin Piles](https://cses.fi/problemset/task/1101)
-- [ ] [1102 - Palindrome Reorder](https://cses.fi/problemset/task/1102)
+- [ ] [1102 - Palindrome Reorder](https://cses.fi/problemset/task/1755) [[SOLUTION](./problems/q1755.cpp)]
 - [ ] [1104 - Tower of Hanoi](https://cses.fi/problemset/task/1104)
 
 </details>
