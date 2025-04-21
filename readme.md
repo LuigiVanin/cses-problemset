@@ -18,9 +18,19 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 - [x] [1071 - Number Spiral](https://cses.fi/problemset/task/1071) [[SOLUTION](./problems/q1071.cpp)]
 - [x] [1072 - Two Knights](https://cses.fi/problemset/task/1072) [[SOLUTION](./problems/q1072.cpp)]
 - [x] [1617 - Bit Strings](https://cses.fi/problemset/task/1617) [[SOLUTION](./problems/q1617.cpp)]
-- [x] [1100 - Trailing Zeros](https://cses.fi/problemset/task/1618) [[SOLUTION](./problems/q1618.cpp)]
-- [ ] [1102 - Palindrome Reorder](https://cses.fi/problemset/task/1755) [[SOLUTION](./problems/q1755.cpp)]
-- [ ] [1104 - Tower of Hanoi](https://cses.fi/problemset/task/1104)
+- [x] [1618 - Trailing Zeros](https://cses.fi/problemset/task/1618) [[SOLUTION](./problems/q1618.cpp)]
+- [x] [1755 - Palindrome Reorder](https://cses.fi/problemset/task/1755) [[SOLUTION](./problems/q1755.cpp)]
+- [x] [2165 - Tower of Hanoi](https://cses.fi/problemset/task/2165) [[SOLUTION](./problems/q2165.cpp)]
+
+</details>
+
+</details>
+
+<details>
+<summary> Sorting and Searching </summary>
+
+
+- [] [1621 - Distinct Numbers](https://cses.fi/problemset/task/1621) [[SOLUTION](./problems/q1621.cpp)]
 
 </details>
 
