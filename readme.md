@@ -30,7 +30,9 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 <summary> Sorting and Searching </summary>
 
 
-- [] [1621 - Distinct Numbers](https://cses.fi/problemset/task/1621) [[SOLUTION](./problems/q1621.cpp)]
+- [x] [1621 - Distinct Numbers](https://cses.fi/problemset/task/1621) [[SOLUTION](./problems/q1621.cpp)]
+- [] [1084 - Apartaments](https://cses.fi/problemset/task/1084) [[SOLUTION](./problems/q1084.cpp)]
+
 
 </details>
 
