@@ -30,7 +30,7 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 
 
 - [x] [1621 - Distinct Numbers](https://cses.fi/problemset/task/1621) [[SOLUTION](./problems/q1621.cpp)]
-- [ ] [1084 - Apartaments](https://cses.fi/problemset/task/1084) [[SOLUTION](./problems/q1084.cpp)]
+- [x] [1084 - Apartaments](https://cses.fi/problemset/task/1084) [[SOLUTION](./problems/q1084.cpp)]
 - [ ] [1090 - Ferris Wheel](https://cses.fi/problemset/task/1090) [[SOLUTION](./problems/q1090.cpp)]
 - [ ] [1091 - Concert Tickets](https://cses.fi/problemset/task/1091) [[SOLUTION](./problems/q1091.cpp)]
 - [ ] [1619 - Restaurant Customers](https://cses.fi/problemset/task/1619) [[SOLUTION](./problems/q1619.cpp)]

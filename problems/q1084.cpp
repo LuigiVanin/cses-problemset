@@ -1,11 +1,17 @@
 // https://cses.fi/problemset/task/1084
 #include <iostream>
+#include <vector>
+#include <algorithm>
 
 #define ll long long
 
 int main()
 {
-  ll n, m, k;
+  ll n,              // number applicants
+      m,             // number apartaments
+      k;             // diff
+  std::vector<ll> a; // applicants array
+  std::vector<ll> b; // apartaments array
 
   std::cin >> n >> m >> k;
 
@@ -13,16 +19,38 @@ int main()
   {
     ll z;
     std::cin >> z;
-    std::cout << z << std::endl;
+    a.push_back(z);
   }
 
   for (ll j = 0; j < m; j++)
   {
     ll x;
     std::cin >> x;
-    std::cout << x << std::endl;
+    b.push_back(x);
   }
 
-  std::cout << "Hello World!";
+  std::sort(a.begin(), a.end());
+  std::sort(b.begin(), b.end());
+
+  ll i = 0,      // applicants index
+      j = 0,     // apartament index
+      count = 0; // match count
+
+  while (i < n && j < m)
+  {
+    if (b[j] >= (a[i] - k) && b[j] <= (a[i] + k))
+    {
+      count++;
+      i++;
+      j++;
+    }
+    else if (b[j] > (a[i] + k))
+      i++;
+    else
+      j++;
+  }
+
+  std::cout << count << std::endl;
+
   return 0;
 }
