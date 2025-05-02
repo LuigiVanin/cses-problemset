@@ -30,16 +30,16 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 
 
 - [x] [1621 - Distinct Numbers](https://cses.fi/problemset/task/1621) [[SOLUTION](./problems/q1621.cpp)]
-- [] [1084 - Apartaments](https://cses.fi/problemset/task/1084) [[SOLUTION](./problems/q1084.cpp)]
-- [] [1090 - Ferris Wheel](https://cses.fi/problemset/task/1090) [[SOLUTION](./problems/q1090.cpp)]
-- [] [1091 - Concert Tickets](https://cses.fi/problemset/task/1091) [[SOLUTION](./problems/q1091.cpp)]
-- [] [1619 - Restaurant Customers](https://cses.fi/problemset/task/1619) [[SOLUTION](./problems/q1619.cpp)]
-- [] [1629 - Movie Festival](https://cses.fi/problemset/task/1629) [[SOLUTION](./problems/q1629.cpp)]
-- [] [1643 - Maximum Subarray Sum](https://cses.fi/problemset/task/1643) [[SOLUTION](./problems/q1643.cpp)]
-- [] [1074 - Stick Lengths](https://cses.fi/problemset/task/1074) [[SOLUTION](./problems/q1074.cpp)]
-- [] [2183 - Missing Coin Sum](https://cses.fi/problemset/task/2183) [[SOLUTION](./problems/q2183.cpp)]
-- [] [1073 - Towers](https://cses.fi/problemset/task/1073) [[SOLUTION](./problems/q1073.cpp)]
-- [] [2162 - Josephus Problem I](https://cses.fi/problemset/task/2162) [[SOLUTION](./problems/q2162.cpp)]
+- [ ] [1084 - Apartaments](https://cses.fi/problemset/task/1084) [[SOLUTION](./problems/q1084.cpp)]
+- [ ] [1090 - Ferris Wheel](https://cses.fi/problemset/task/1090) [[SOLUTION](./problems/q1090.cpp)]
+- [ ] [1091 - Concert Tickets](https://cses.fi/problemset/task/1091) [[SOLUTION](./problems/q1091.cpp)]
+- [ ] [1619 - Restaurant Customers](https://cses.fi/problemset/task/1619) [[SOLUTION](./problems/q1619.cpp)]
+- [ ] [1629 - Movie Festival](https://cses.fi/problemset/task/1629) [[SOLUTION](./problems/q1629.cpp)]
+- [ ] [1643 - Maximum Subarray Sum](https://cses.fi/problemset/task/1643) [[SOLUTION](./problems/q1643.cpp)]
+- [ ] [1074 - Stick Lengths](https://cses.fi/problemset/task/1074) [[SOLUTION](./problems/q1074.cpp)]
+- [ ] [2183 - Missing Coin Sum](https://cses.fi/problemset/task/2183) [[SOLUTION](./problems/q2183.cpp)]
+- [ ] [1073 - Towers](https://cses.fi/problemset/task/1073) [[SOLUTION](./problems/q1073.cpp)]
+- [ ] [2162 - Josephus Problem I](https://cses.fi/problemset/task/2162) [[SOLUTION](./problems/q2162.cpp)]
 
 
 </details>
