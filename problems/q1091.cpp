@@ -32,7 +32,7 @@ int main() {
       auto count = map[tickets[j]];
 
       if (!count)
-        break;
+        continue;
 
       if (customers[i] >= tickets[j]) {
         result[i] = tickets[j];
@@ -48,3 +48,49 @@ int main() {
 
   return 0;
 }
+
+/*
+CORRECT ANSWER
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+
+  int n, m;
+  cin >> n >> m;
+
+  // Use multiset to store ticket prices (allows duplicates and keeps sorted)
+  multiset<int> tickets;
+
+  for (int i = 0; i < n; i++) {
+    int price;
+    cin >> price;
+    tickets.insert(price);
+  }
+
+  // Process each customer
+  for (int i = 0; i < m; i++) {
+    int maxPrice;
+    cin >> maxPrice;
+
+    // Find the largest ticket price <= maxPrice
+    auto it = tickets.upper_bound(maxPrice);
+
+    if (it == tickets.begin()) {
+      // No ticket with price <= maxPrice exists
+      cout << -1 << "\n";
+    } else {
+      // Move iterator back to get the largest price <= maxPrice
+      --it;
+      cout << *it << "\n";
+      // Remove this ticket as it's sold
+      tickets.erase(it);
+    }
+  }
+
+  return 0;
+}
+*/
