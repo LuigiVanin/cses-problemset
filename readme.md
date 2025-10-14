@@ -35,8 +35,8 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 - [x] [1091 - Concert Tickets](https://cses.fi/problemset/task/1091) [[SOLUTION](./problems/q1091.cpp)]
 - [x] [1629 - Sum of Two Values](https://cses.fi/problemset/task/140) [[SOLUTION](./problems/q1640.cpp)]
 - [x] [1643 - Maximum Subarray Sum](https://cses.fi/problemset/task/1643) [[SOLUTION](./problems/q1643.cpp)]
-- [ ] [1074 - Stick Lengths](https://cses.fi/problemset/task/1074) [[SOLUTION](./problems/q1074.cpp)]
-- [ ] [2183 - Missing Coin Sum](https://cses.fi/problemset/task/2183) [[SOLUTION](./problems/q2183.cpp)]
+- [x] [1074 - Stick Lengths](https://cses.fi/problemset/task/1074) [[SOLUTION](./problems/q1074.cpp)]
+- [x] [2183 - Missing Coin Sum](https://cses.fi/problemset/task/2183) [[SOLUTION](./problems/q2183.cpp)]
 - [ ] [1073 - Towers](https://cses.fi/problemset/task/1073) [[SOLUTION](./problems/q1073.cpp)]
 - [ ] [2162 - Josephus Problem I](https://cses.fi/problemset/task/2162) [[SOLUTION](./problems/q2162.cpp)]
 
