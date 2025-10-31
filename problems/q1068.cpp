@@ -1,19 +1,16 @@
 // Problem "Weird Algorithm": https://cses.fi/problemset/task/1068
 #include <iostream>
 
-int main()
-{
+int main() {
 
   long long n;
 
   std::cin >> n;
 
-  while (true)
-  {
+  while (true) {
     std::cout << n << " ";
 
-    if (n == 1)
-      break;
+    if (n == 1) break;
 
     if (n % 2 == 0) // When it is even
     {
