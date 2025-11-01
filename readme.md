@@ -38,20 +38,7 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 - [x] [1074 - Stick Lengths](https://cses.fi/problemset/task/1074) [[SOLUTION](./problems/q1074.cpp)]
 - [x] [2183 - Missing Coin Sum](https://cses.fi/problemset/task/2183) [[SOLUTION](./problems/q2183.cpp)]
 - [x] [1073 - Towers](https://cses.fi/problemset/task/1073) [[SOLUTION](./problems/q1073.cpp)]
-- [ ] [2162 - Josephus Problem I](https://cses.fi/problemset/task/2162) [[SOLUTION](./problems/q2162.cpp)]
-
-
-</details>
-
-
-<details>
-<summary> <strong> Dynamic Programming </strong> </summary>
-
-
-</details>
-
-<details>
-<summary> <strong> Graph Algorithms </strong> </summary>
+- [x] [2162 - Distinct Values Subarrays](https://cses.fi/problemset/task/3420) [[SOLUTION](./problems/q3420.cpp)]
 
 
 </details>
