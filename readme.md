@@ -44,6 +44,16 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 </details>
 
 
+<details>
+<summary> <strong> Graph Algorithms </strong> </summary>
+
+
+- [x] [1192 - Counting Rooms](https://cses.fi/problemset/task/1192) [[SOLUTION](./problems/q1192.cpp)]
+
+
+</details>
+
+
 ## Instructions
 
 > [!note] The [`utils/`](./utils/) 
