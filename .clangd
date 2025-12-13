@@ -11,6 +11,7 @@ CompileFlags:
     "-g", 
     "-Wall",
     "-Wextra",
+    "-Wvla-cxx-extension",
     "-I./problems",
     "-I./utils",
 

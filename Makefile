@@ -124,41 +124,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named q3420
+# Target rules for targets named q1192
 
 # Build rule for target.
-q3420: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 q3420
-.PHONY : q3420
+q1192: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 q1192
+.PHONY : q1192
 
 # fast build rule for target.
-q3420/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/q3420.dir/build.make CMakeFiles/q3420.dir/build
-.PHONY : q3420/fast
+q1192/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1192.dir/build.make CMakeFiles/q1192.dir/build
+.PHONY : q1192/fast
 
-problems/q3420.o: problems/q3420.cpp.o
-.PHONY : problems/q3420.o
+problems/q1192.o: problems/q1192.cpp.o
+.PHONY : problems/q1192.o
 
 # target to build an object file
-problems/q3420.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/q3420.dir/build.make CMakeFiles/q3420.dir/problems/q3420.cpp.o
-.PHONY : problems/q3420.cpp.o
+problems/q1192.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1192.dir/build.make CMakeFiles/q1192.dir/problems/q1192.cpp.o
+.PHONY : problems/q1192.cpp.o
 
-problems/q3420.i: problems/q3420.cpp.i
-.PHONY : problems/q3420.i
+problems/q1192.i: problems/q1192.cpp.i
+.PHONY : problems/q1192.i
 
 # target to preprocess a source file
-problems/q3420.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/q3420.dir/build.make CMakeFiles/q3420.dir/problems/q3420.cpp.i
-.PHONY : problems/q3420.cpp.i
+problems/q1192.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1192.dir/build.make CMakeFiles/q1192.dir/problems/q1192.cpp.i
+.PHONY : problems/q1192.cpp.i
 
-problems/q3420.s: problems/q3420.cpp.s
-.PHONY : problems/q3420.s
+problems/q1192.s: problems/q1192.cpp.s
+.PHONY : problems/q1192.s
 
 # target to generate assembly for a file
-problems/q3420.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/q3420.dir/build.make CMakeFiles/q3420.dir/problems/q3420.cpp.s
-.PHONY : problems/q3420.cpp.s
+problems/q1192.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/q1192.dir/build.make CMakeFiles/q1192.dir/problems/q1192.cpp.s
+.PHONY : problems/q1192.cpp.s
 
 # Help Target
 help:
@@ -169,10 +169,10 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... q3420"
-	@echo "... problems/q3420.o"
-	@echo "... problems/q3420.i"
-	@echo "... problems/q3420.s"
+	@echo "... q1192"
+	@echo "... problems/q1192.o"
+	@echo "... problems/q1192.i"
+	@echo "... problems/q1192.s"
 .PHONY : help
 
 

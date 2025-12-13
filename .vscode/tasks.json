@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "problemId",
+      "type": "promptString",
+      "description": "The ID of the problem to build.",
+      "default": "${fileBasenameNoExtension}"
+    },
+    {
+      "id": "inputFile",
+      "type": "promptString",
+      "description": "The input file to run the problem with.",
+      "default": "1"
+    }
+  ],
+  
+  "tasks": [
+    {
+      "label": "CMake Run",
+      "type": "shell",
+      "command": "./run.sh ${input:problemId} ${input:inputFile}",
+      "problemMatcher": ["$gcc"],
+      "detail": "Builds the CMake project.",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "CMake Run (Current File)",
+      "type": "shell",
+      "command": "./run.sh ${fileBasenameNoExtension} ${input:inputFile}",
+      "problemMatcher": ["$gcc"],
+      "detail": "Builds the problem from current file (extracts ID from filename)",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "CMake Build",
+      "type": "shell",
+      "command": "./run.sh --build ${input:problemId}",
+      "problemMatcher": ["$gcc"],
+      "detail": "Builds the problem from current file (extracts ID from filename)",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "CMake Build (Current File)",
+      "type": "shell",
+      "command": "./run.sh --build ${fileBasenameNoExtension}",
+      "problemMatcher": ["$gcc"],
+      "detail": "Builds the problem from current file (extracts ID from filename)",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    }
+  ]
+} 

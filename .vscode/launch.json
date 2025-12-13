@@ -3,8 +3,30 @@
   // Hover to view descriptions of existing attributes.
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
+  "inputs": [
+    {
+      "id": "problemId",
+      "type": "promptString",
+      "description": "The ID of the problem to build.",
+      "default": "${fileBasenameNoExtension}"
+    },
+    {
+      "id": "inputFileNumber",
+      "type": "promptString",
+      "description": "The input file number (e.g., 1, 2, 3)",
+      "default": "1"
+    }
+  ],
   "configurations": [
-    
+    {
+      "name": "(lldb) Launch",
+      "type": "lldb",
+      "program": "${workspaceFolder}/bin/q${input:problemId}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "request": "launch",
+      "preLaunchTask": "CMake Build (Current File)"
+    },
 
   ]
 }
