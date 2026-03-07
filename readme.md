@@ -50,7 +50,9 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 
 - [x] [1192 - Counting Rooms](https://cses.fi/problemset/task/1192) [[SOLUTION](./problems/q1192.cpp)]
 - [x] [1193 - Labyrinth](https://cses.fi/problemset/task/1193) [[SOLUTION](./problems/q1193.cpp)]
-- [x] [1192 - Building Roads](https://cses.fi/problemset/task/1666) [[SOLUTION](./problems/q1666.cpp)]
+- [x] [1666 - Building Roads](https://cses.fi/problemset/task/1666) [[SOLUTION](./problems/q1666.cpp)]
+- [x] [1667 - Message Routes](https://cses.fi/problemset/task/1667) [[SOLUTION](./problems/q1667.cpp)]
+
 
 
 
@@ -59,7 +61,8 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 
 ## Instructions
 
-> [!note] The [`utils/`](./utils/) 
+> [!note] 
+> The [`utils/`](./utils/) 
 > folder is only used for copy and paste functions and helpers, there is no linked structure inside the build steps. 
 
 ### Build All Problems
