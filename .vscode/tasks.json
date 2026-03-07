@@ -26,16 +26,16 @@
         "cwd": "${workspaceFolder}"
       }
     },
-    {
-      "label": "CMake Run (Current File)",
-      "type": "shell",
-      "command": "./run.sh ${fileBasenameNoExtension} ${input:inputFile}",
-      "problemMatcher": ["$gcc"],
-      "detail": "Builds the problem from current file (extracts ID from filename)",
-      "options": {
-        "cwd": "${workspaceFolder}"
-      }
-    },
+    // {
+    //   "label": "CMake Run (Current File)",
+    //   "type": "shell",
+    //   "command": "./run.sh ${fileBasenameNoExtension} ${input:inputFile}",
+    //   "problemMatcher": ["$gcc"],
+    //   "detail": "Builds the problem from current file (extracts ID from filename)",
+    //   "options": {
+    //     "cwd": "${workspaceFolder}"
+    //   }
+    // },
     {
       "label": "CMake Build",
       "type": "shell",

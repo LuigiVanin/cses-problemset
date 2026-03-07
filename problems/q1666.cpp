@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-void bfs(const std::vector<std::vector<int>> &graph,
+void dfs(const std::vector<std::vector<int>> &graph,
          std::vector<bool>                   &visited,
          int                                  src)
 {
@@ -9,7 +9,7 @@ void bfs(const std::vector<std::vector<int>> &graph,
   std::vector<int> neighbors = graph[src];
 
   for (const auto neighbor : neighbors)
-    if (!visited[neighbor]) bfs(graph, visited, neighbor);
+    if (!visited[neighbor]) dfs(graph, visited, neighbor);
 }
 
 int main()
@@ -36,7 +36,7 @@ int main()
   {
     if (!visited[i])
     {
-      bfs(graph, visited, i);
+      dfs(graph, visited, i);
       r.push_back(i + 1);
       counter++;
     }
