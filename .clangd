@@ -1,3 +1,9 @@
+# clang auto-selects the highest GCC toolchain (14), but only GCC 13 has the
+# libstdc++ headers installed (/usr/include/c++/13). Pin clangd to GCC 13 so it
+# can find <iostream> etc. (the actual g++ build is unaffected by this file).
+CompileFlags:
+  Add: [--gcc-install-dir=/usr/lib/gcc/x86_64-linux-gnu/13]
+---
 If:
   PathMatch: .*\.h
 CompileFlags:

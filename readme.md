@@ -52,7 +52,8 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 - [x] [1193 - Labyrinth](https://cses.fi/problemset/task/1193) [[SOLUTION](./problems/q1193.cpp)]
 - [x] [1666 - Building Roads](https://cses.fi/problemset/task/1666) [[SOLUTION](./problems/q1666.cpp)]
 - [x] [1667 - Message Routes](https://cses.fi/problemset/task/1667) [[SOLUTION](./problems/q1667.cpp)]
-
+- [x] [1669 - Round Trip](https://cses.fi/problemset/task/1669) [[SOLUTION](./problems/q1669.cpp)]
+- [ ] [1668 - Building Teams](https://cses.fi/problemset/task/1668) [[SOLUTION](./problems/q1668.cpp)]
 
 
 
