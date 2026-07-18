@@ -1,7 +1,9 @@
 #!/bin/bash
 
 debug_opt="-D CMAKE_BUILD_TYPE=Debug"
-CC="C_COMPILER=clang"
+# Build with clang/clang++ so the compiler matches the clangd IDE analyzer.
+CC="-D CMAKE_C_COMPILER=clang -D CMAKE_CXX_COMPILER=clang++"
+CC=""
 
 # Check for --build flag
 BUILD_ONLY=false

@@ -7,6 +7,12 @@ case "$commit_message" in
     message="${commit_message#docs:}"
     fixed_message="${tag} ${emoji}:${message}"
     ;;
+  config:*)
+    tag="Config"
+    emoji="🛠️"
+    message="${commit_message#docs:}"
+    fixed_message="${tag} ${emoji}:${message}"
+    ;;
   feat:*)
     tag="Feat"
     emoji="✨"
