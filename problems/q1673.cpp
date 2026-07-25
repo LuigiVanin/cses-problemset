@@ -3,9 +3,9 @@
 #include <queue>
 #include <vector>
 
-void dfs(const int                                            src,
-         const std::vector<std::vector<std::pair<int, int>>> &graph,
-         std::vector<bool>                                   &affected)
+void bellman(const int                                            src,
+             const std::vector<std::vector<std::pair<int, int>>> &graph,
+             std::vector<bool>                                   &affected)
 {
   std::queue<int> q;
   q.push(src);
@@ -66,7 +66,7 @@ int main()
   }
 
   for (int i = 0; i < n; i++)
-    if (affected[i]) dfs(i, graph, affected);
+    if (affected[i]) bellman(i, graph, affected);
 
   if (affected[n - 1])
   {
