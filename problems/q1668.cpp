@@ -2,35 +2,39 @@
 #include <queue>
 #include <vector>
 
-bool bfs(const std::vector<std::vector<int>> &graph,
-         std::vector<int>                    &teams,
-         const int                            src)
+bool bfs(int                                  src,
+         const std::vector<std::vector<int>> &graph,
+         std::vector<bool>                   &visited,
+         std::vector<int>                    &teams)
 {
   std::queue<int> q;
   q.push(src);
-  teams[src] = 1;
+  if (!teams[src])
+  {
+    teams[src] = 1;
+  }
 
   while (!q.empty())
   {
-    int current = q.front();
+    auto curr = q.front();
     q.pop();
 
-    for (const auto neighbor : graph[current])
+    for (auto &neighbor : graph[curr])
     {
-      if (teams[neighbor] == 0)
+      if (!teams[neighbor])
+        teams[neighbor] = teams[curr] == 1 ? 2 : 1;
+      else if (!!teams[neighbor] && teams[neighbor] == teams[curr])
+        return true;
+
+      if (!visited[neighbor])
       {
-        // paint with the opposite team of current (1 -> 2, 2 -> 1)
-        teams[neighbor] = 3 - teams[current];
+        visited[neighbor] = true;
         q.push(neighbor);
-      }
-      else if (teams[neighbor] == teams[current])
-      {
-        return false;
       }
     }
   }
 
-  return true;
+  return false;
 }
 
 int main()
@@ -40,6 +44,7 @@ int main()
   std::cin >> n >> m;
 
   std::vector<std::vector<int>> graph(n, std::vector<int>());
+  std::vector<bool>             visited(n, false);
   std::vector<int>              teams(n, 0);
 
   for (int i = 0; i < m; i++)
@@ -53,15 +58,19 @@ int main()
 
   for (int i = 0; i < n; i++)
   {
-    if (teams[i] == 0 && !bfs(graph, teams, i))
+    if (!visited[i])
     {
-      std::cout << "IMPOSSIBLE" << std::endl;
-      return 0;
+      auto impossible = bfs(i, graph, visited, teams);
+      if (impossible)
+      {
+        std::cout << "IMPOSSIBLE\n";
+        return 0;
+      }
     }
   }
 
   for (const auto team : teams) std::cout << team << " ";
-  std::cout << "\n";
+  std::cout << std::endl;
 
   return 0;
 }
