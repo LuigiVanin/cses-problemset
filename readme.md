@@ -54,6 +54,8 @@ The CSES Problem Set is a collection of competitive programming problems maintai
 - [x] [1667 - Message Routes](https://cses.fi/problemset/task/1667) [[SOLUTION](./problems/q1667.cpp)]
 - [x] [1669 - Round Trip](https://cses.fi/problemset/task/1669) [[SOLUTION](./problems/q1669.cpp)]
 - [x] [1668 - Building Teams](https://cses.fi/problemset/task/1668) [[SOLUTION](./problems/q1668.cpp)]
+- [ ] [1671 - Shortest Routes I](https://cses.fi/problemset/task/1671) [[SOLUTION](./problems/1671.cpp)]
+- [x] [1673 - High Score](https://cses.fi/problemset/task/1673) [[SOLUTION](./problems/1673.cpp)]
 
 
 
